@@ -14,7 +14,7 @@ Nikhil ( symbol = O ) turn
 &emsp;Please enter col: 0  
 &emsp;|O| | |  
 &emsp;| | | |  
-&emsp;| | | |  
+&emsp;| | | |
 
 Deepak ( symbol = X ) turn  
 &emsp;Make a move by choosing cell..  
@@ -22,7 +22,7 @@ Deepak ( symbol = X ) turn
 &emsp;Please enter col: 2  
 &emsp;|O| |X|  
 &emsp;| | | |  
-&emsp;| | | |  
+&emsp;| | | |
 
 Nikhil ( symbol = O ) turn  
 &emsp;Make a move by choosing cell..  
@@ -30,7 +30,7 @@ Nikhil ( symbol = O ) turn
 &emsp;Please enter col: 0  
 &emsp;|O| |X|  
 &emsp;|O| | |  
-&emsp;| | | |  
+&emsp;| | | |
 
 Deepak ( symbol = X ) turn  
 &emsp;Make a move by choosing cell..  
@@ -38,7 +38,7 @@ Deepak ( symbol = X ) turn
 &emsp;Please enter col: 1  
 &emsp;|O| |X|  
 &emsp;|O|X| |  
-&emsp;| | | |  
+&emsp;| | | |
 
 Nikhil ( symbol = O ) turn  
 &emsp;Make a move by choosing cell..  
@@ -46,7 +46,7 @@ Nikhil ( symbol = O ) turn
 &emsp;Please enter col: 2  
 &emsp;|O| |X|  
 &emsp;|O|X| |  
-&emsp;| | |O|  
+&emsp;| | |O|
 
 Deepak ( symbol = X ) turn  
 &emsp;Make a move by choosing cell..  
@@ -54,7 +54,7 @@ Deepak ( symbol = X ) turn
 &emsp;Please enter col: 0  
 &emsp;|O| |X|  
 &emsp;|O|X| |  
-&emsp;|X| |O|  
+&emsp;|X| |O|
 
 =========================================================================================
 
