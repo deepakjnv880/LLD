@@ -8,7 +8,7 @@ public class Snake extends Jump {
 
     @Override
     public void getEncounterMessage() {
-        System.out.println("\t:( Oouch, You encounter a snake bite");
+        System.out.println("\t:( Oouch, You encounter a snake bite from " + getStart() + " to " + getEnd());
     }
 
     @Override

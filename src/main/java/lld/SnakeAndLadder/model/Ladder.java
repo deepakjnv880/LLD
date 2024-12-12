@@ -1,14 +1,14 @@
 package lld.SnakeAndLadder.model;
 
 public class Ladder extends Jump {
-    public Ladder(int foot, int head) {
-        super(foot, head);
-        validateInput(foot, head);
+    public Ladder(int foot, int top) {
+        super(foot, top);
+        validateInput(foot, top);
     }
 
     @Override
     public void getEncounterMessage() {
-        System.out.println("\t:) Hurray, You got a ladder");
+        System.out.println("\t:) Hurray, You got a ladder from " + getStart() + " to " + getEnd());
     }
 
     @Override

@@ -1,6 +1,6 @@
 package lld.TicTacToe.Exception;
 
-public class InvalidInputException extends Throwable {
+public class InvalidInputException extends Exception {
     public InvalidInputException(String message) {
         super(message);
     }

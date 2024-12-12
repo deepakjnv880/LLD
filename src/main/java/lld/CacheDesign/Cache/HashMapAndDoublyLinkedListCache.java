@@ -6,7 +6,7 @@ import lld.CacheDesign.Model.DoublyLinkedListNode;
 
 import java.util.HashMap;
 
-public class HashMapAndDoublyLinkedListCache<K, V> implements Cache<K,V>{
+public class HashMapAndDoublyLinkedListCache<K, V> implements Cache<K, V> {
     int capacity;
     EvictionStrategy<K, V> evictionStrategy;
     HashMap<K, DoublyLinkedListNode<K, V>> hashMap;
@@ -40,7 +40,7 @@ public class HashMapAndDoublyLinkedListCache<K, V> implements Cache<K,V>{
         DoublyLinkedListNode<K, V> doublyLinkedListNode;
         if (hashMap.containsKey(key)) {
             doublyLinkedListNode = hashMap.get(key);
-            doublyLinkedListNode.value=value;
+            doublyLinkedListNode.value = value;
             evictionStrategy.keyAccessed(doublyLinkedListNode, doublyLinkedList);
             return;
         }

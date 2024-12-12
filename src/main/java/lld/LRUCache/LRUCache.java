@@ -12,6 +12,7 @@ public class LRUCache {
     Map<Integer, Dll> map;
     Dll head, tail;
     int capacity;
+
     public LRUCache(int capacity) {
         this.capacity = capacity;
         this.map = new HashMap<>();
