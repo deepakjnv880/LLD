@@ -45,6 +45,6 @@ public class SplitWiseRepository {
                                     .get(split.getUserId())
                                     .getOrDefault(expense.getPaidByUserId(), 0.0) - split.getAmount());
         }
-        System.out.println("Added expense and updated balance sheet");
+        System.out.println("\tAdded expense and updated balance sheet");
     }
 }

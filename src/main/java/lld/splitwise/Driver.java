@@ -15,7 +15,7 @@ public class Driver {
         SplitWiseService splitWiseService = new SplitWiseService();
         int expenseId = 1;
         for (String command : commands) {
-            System.out.println("COMMAND -> " + command);
+            System.out.println(command);
             String[] words = command.split(" ");
             String commandType = words[0];
 
@@ -47,14 +47,14 @@ public class Driver {
                             return;
                     }
                     Expense expense = new Expense(expenseId++, new ExpenseMetaData("Sonapur mela", "s3Url"), paidByUser, totalAmountPaid, splits, splitType);
-                    System.out.println(expense);
+                    System.out.println("\t"+expense);
                     splitWiseService.addExpense(expense);
                     break;
                 case "SHOW":
                     splitWiseService.showBalances();
                     break;
                 default:
-                    System.out.println("Unknown command -> " + command);
+                    System.out.println("\tUnknown command -> " + command);
                     break;
             }
         }
